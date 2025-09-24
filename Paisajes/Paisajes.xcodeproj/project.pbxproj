@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -49,6 +49,10 @@
 		DD9B4BA62E71E2F10093161B /* CircularImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularImage.swift; sourceTree = "<group>"; };
 		DD9B4BA82E71E4FF0093161B /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		8FF774732E83B2EB000F714C /* New Folder */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "New Folder"; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		DD9B4B762E71DAD80093161B /* Frameworks */ = {
@@ -103,6 +107,7 @@
 				DD9B4B802E71DADB0093161B /* Assets.xcassets */,
 				DD9B4BA62E71E2F10093161B /* CircularImage.swift */,
 				DD9B4BA82E71E4FF0093161B /* MapView.swift */,
+				8FF774732E83B2EB000F714C /* New Folder */,
 				DD9B4B822E71DADB0093161B /* Preview Content */,
 			);
 			path = Paisajes;
@@ -147,6 +152,9 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				8FF774732E83B2EB000F714C /* New Folder */,
 			);
 			name = Paisajes;
 			productName = Paisajes;

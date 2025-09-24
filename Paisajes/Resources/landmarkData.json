@@ -1,0 +1,162 @@
+[
+    {
+        "name": "Facultad de Ingeniería",
+        "category": "Escuela",
+        "city": "San Francisco de Campeche",
+        "state": "Campeche",
+        "id": 1001,
+        "isFeatured": true,
+        "isFavorite": true,
+        "location": "Siglo XXIII",
+        "coordinates": {
+            "longitude": 19.845911,
+            "latitude": -90.477336
+        },
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis aperiam laborum, voluptatem nisi necessitatibus ex, quasi ratione dolor at obcaecati cum modi natus odit? In, ipsum nihil. Labore, magnam aspernatur!",
+        "imageName": "fdi"
+    },
+    {
+        "name": "Hooters La Diana",
+        "category": "Restaurante",
+        "city": "Ciudad de México",
+        "state": "Ciudad de México",
+        "id": 1002,
+        "isFeatured": false,
+        "isFavorite": true,
+        "location": "Cuauhtémoc",
+        "coordinates": {
+            "longitude": 19.427556,
+            "latitude": -99.170752
+        },
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, voluptatem nemo. Eligendi quia est dolorum minus architecto, tempore harum in qui aut ullam vel quaerat? Qui ab quaerat illum accusamus?",
+        "imageName": "hooters"
+    },
+    {
+        "name": "Edzná",
+        "category": "Sitio Arquelógico",
+        "city": "Edzná",
+        "state": "Campeche",
+        "id": 1003,
+        "isFeatured": false,
+        "isFavorite": false,
+        "location": "Campeche",
+        "coordinates": {
+            "longitude": 19.597117,
+            "latitude": -90.230126
+        },
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores voluptates aspernatur obcaecati doloremque, exercitationem voluptas iusto quam nihil, eveniet, dolorem fugit adipisci minima iste animi dignissimos quisquam eius eligendi officiis!",
+        "imageName": "edzna"
+    },
+    {
+        "name": "Real de Salinas",
+        "category": "Playa",
+        "city": "Celestún",
+        "state": "Campeche",
+        "id": 1004,
+        "isFeatured": false,
+        "isFavorite": false,
+        "location": "Calkiní",
+        "coordinates": {
+            "longitude": 20.837007,
+            "latitude": -90.408258
+        },
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui omnis quod quae repellendus commodi optio natus esse reiciendis, enim modi cum in necessitatibus libero nemo non obcaecati placeat illum at.",
+        "imageName": "salinas"
+    },
+    {
+        "name": "Punta Sur",
+        "category": "Sitio Arquelógico",
+        "city": "Isla Mujeres",
+        "state": "Quintana Roo",
+        "id": 1005,
+        "isFeatured": false,
+        "isFavorite": false,
+        "location": "Mar Caribe",
+        "coordinates": {
+            "longitude": 21.201584,
+            "latitude": -86.710740
+        },
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit error delectus molestias, voluptatibus quasi, tempore est aliquid suscipit maxime, nesciunt aspernatur ad vitae in sequi odio assumenda dolores quisquam sapiente?",
+        "imageName": "punta"
+    },
+    {
+        "name": "Bacalar",
+        "category": "Laguna",
+        "city": "Bacalar",
+        "state": "Quintana Roo",
+        "id": 1006,
+        "isFeatured": false,
+        "isFavorite": false,
+        "location": "Bacalar",
+        "coordinates": {
+            "longitude": 18.675735,
+            "latitude": -88.380783
+        },
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni nemo repellendus non obcaecati, architecto eligendi maiores consequuntur adipisci ab perferendis doloremque aliquam nam tempore soluta sit illum saepe officiis modi!",
+        "imageName": "bacalar"
+    },
+    {
+        "name": "Six Flags México",
+        "category": "Entretenimiento",
+        "city": "Ciudad de México",
+        "state": "Ciudad de México",
+        "id": 1007,
+        "isFeatured": false,
+        "isFavorite": true,
+        "location": "Ajusco",
+        "coordinates": {
+            "longitude": 19.294707,
+            "latitude": -99.210576
+        },
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, rem adipisci magnam facere sunt perferendis laboriosam atque voluptas accusantium non ratione aspernatur ad id delectus quis dicta? Corporis, iste quae.",
+        "imageName": "sixflags"
+    },
+    {
+        "name": "Alameda Central",
+        "category": "Parque",
+        "city": "Ciudad de México",
+        "state": "Ciudad de México",
+        "id": 1008,
+        "isFeatured": false,
+        "isFavorite": true,
+        "location": "Cuauhtémoc",
+        "coordinates": {
+            "longitude": 19.435867,
+            "latitude": -99.144730
+        },
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quam provident eaque, eius labore sed? Veritatis mollitia earum magnam quibusdam tempora dolore rem temporibus sequi debitis, ad reiciendis, eos officia.",
+        "imageName": "alameda"
+    },
+    {
+        "name": "Centro de Investigación en Computación",
+        "category": "Escuela",
+        "city": "Ciudad de México",
+        "state": "Ciudad de México",
+        "id": 1009,
+        "isFeatured": true,
+        "isFavorite": false,
+        "location": "Gustavo A. Madero",
+        "coordinates": {
+            "longitude": 19.503375,
+            "latitude": -99.147333
+        },
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere excepturi autem illum ratione, numquam nulla laborum, sapiente est, ipsum amet perspiciatis. Sapiente, alias quasi illum eaque saepe unde? Impedit, aspernatur!",
+        "imageName": "cic"
+    },
+    {
+        "name": "Café El Popular",
+        "category": "Restaurante",
+        "city": "Ciudad de México",
+        "state": "Ciudad de México",
+        "id": 1010,
+        "isFeatured": true,
+        "isFavorite": false,
+        "location": "Cuahtémoc",
+        "coordinates": {
+            "longitude": 19.434194,
+            "latitude": -99.135598
+        },
+        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur nisi excepturi est blanditiis provident totam alias quaerat vero, illo, perspiciatis nostrum nesciunt! Ratione ipsum aperiam perspiciatis nostrum quos maxime magni?",
+        "imageName": "popular"
+    }
+]
