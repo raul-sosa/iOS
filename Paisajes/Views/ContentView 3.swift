@@ -1,13 +1,15 @@
 //
-//  ContentView.swift
+//  ContentView 3.swift
 //  Paisajes
 //
-//  Created by Alumno 17 on 10/09/25.
+//  Created by Raul Sosa on 30/09/25.
 //
+
+
 
 import SwiftUI
 
-struct ContentView: View {
+struct PaisajeDetail: View {
     var body: some View {
         
         VStack {

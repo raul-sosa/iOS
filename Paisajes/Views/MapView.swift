@@ -2,19 +2,31 @@ import SwiftUI
 import MapKit
 
 struct MapView: View {
-    @State private var region = MKCoordinateRegion(
-        center: CLLocationCoordinate2D(latitude: 19.845_997, longitude: -90.477_332),
-        span: MKCoordinateSpan(latitudeDelta: 0.2, longitudeDelta: 0.2)
-    )
+    var coordinate: CLLocationCoordinate2D
+    @State private var region: MKCoordinateRegion
+
+    init(coordinate: CLLocationCoordinate2D) {
+        self.coordinate = coordinate
+        self._region = State(initialValue: MKCoordinateRegion(
+            center: coordinate,
+            span: MKCoordinateSpan(latitudeDelta: 0.2, longitudeDelta: 0.2)
+        ))
+    }
 
     var body: some View {
-        Map(coordinateRegion: $region)
+        Group {
+            if #available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, *) {
+                Map(initialPosition: .region(region))
+            } else {
+                Map(coordinateRegion: $region)
+            }
+        }
     }
 }
 
-struct MapView_Previews: PreviewProvider {
-    static var previews: some View {
-        MapView()
-    }
+#Preview {
+    MapView(coordinate: CLLocationCoordinate2D(
+        latitude: 19.845_911,
+        longitude: -90.477_336
+    ))
 }
-
