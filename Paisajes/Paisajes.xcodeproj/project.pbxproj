@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F91C4C12E8D191C00DDAA62 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F91C4C02E8D190900DDAA62 /* FavoriteButton.swift */; };
 		8FD1F3CC2E8BB7450008193C /* PaisajeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD1F3CB2E8BB72E0008193C /* PaisajeRow.swift */; };
 		8FD1F3CE2E8BBA8E0008193C /* PaisajeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD1F3CD2E8BBA800008193C /* PaisajeList.swift */; };
 		8FD1F3D02E8BBC0E0008193C /* PaisajeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD1F3CF2E8BBBF90008193C /* PaisajeDetail.swift */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8F91C4C02E8D190900DDAA62 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		8FD1F3CB2E8BB72E0008193C /* PaisajeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaisajeRow.swift; sourceTree = "<group>"; };
 		8FD1F3CD2E8BBA800008193C /* PaisajeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaisajeList.swift; sourceTree = "<group>"; };
 		8FD1F3CF2E8BBBF90008193C /* PaisajeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaisajeDetail.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 		8FF774B22E83C70F000F714C /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				8F91C4C02E8D190900DDAA62 /* FavoriteButton.swift */,
 				8FD1F3CF2E8BBBF90008193C /* PaisajeDetail.swift */,
 				8FD1F3CD2E8BBA800008193C /* PaisajeList.swift */,
 				8FD1F3CB2E8BB72E0008193C /* PaisajeRow.swift */,
@@ -317,6 +320,7 @@
 				DD9B4B7F2E71DAD80093161B /* ContentView.swift in Sources */,
 				DD9B4BA92E71E4FF0093161B /* MapView.swift in Sources */,
 				DD9B4B7D2E71DAD80093161B /* PaisajesApp.swift in Sources */,
+				8F91C4C12E8D191C00DDAA62 /* FavoriteButton.swift in Sources */,
 				8FD1F3D02E8BBC0E0008193C /* PaisajeDetail.swift in Sources */,
 				8FF774AF2E83B81E000F714C /* Paisaje.swift in Sources */,
 				DD9B4BA72E71E2F10093161B /* CircularImage.swift in Sources */,
@@ -488,6 +492,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -516,6 +521,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -574,6 +580,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = practica.PaisajesUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -591,6 +598,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = practica.PaisajesUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";

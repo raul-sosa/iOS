@@ -9,23 +9,29 @@ import SwiftUI
 
 struct PaisajeRow: View {
     var paisaje: Paisaje
-    
+
     var body: some View {
         HStack {
             paisaje.image
                 .resizable()
                 .frame(width: 50, height: 50)
             Text(paisaje.name)
-            
+
             Spacer()
+            if paisaje.isFavorite {
+                Image(systemName: "star.fill") // [cite: 39]
+                    .foregroundStyle(.yellow)
+            }
         }
     }
 }
 
 #Preview("Facultad") {
-    Group{
-        PaisajeRow(paisaje: paisajes[0])
-        PaisajeRow(paisaje: paisajes[1])
+    let paisajes = ModelData().paisajes
+    return Group {
+        PaisajeRow(paisaje: paisajes[0]) // [cite: 147]
+        PaisajeRow(paisaje: paisajes[1]) // [cite: 148]
     }
 }
+
 

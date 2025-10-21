@@ -6,27 +6,31 @@
 //
 import Foundation
 
-func load<T: Decodable>(_ fileName: String) -> T {
+@available(iOS 17.0, *)
+@Observable
+class ModelData {
+    var paisajes: [Paisaje] = load("landmarkData.json")
+}
+
+
+func load<T: Decodable>(_ filename: String) -> T {
     let data: Data
-    
-    guard let file = Bundle.main.url(forResource: fileName, withExtension: nil)
+
+    guard let file = Bundle.main.url(forResource: filename, withExtension: nil)
     else {
-        fatalError("No encontre el archivo \(fileName) en los recursos de la app.")
+        fatalError("No se pudo encontrar \(filename) en el bundle principal.")
     }
-    
+
     do {
         data = try Data(contentsOf: file)
     } catch {
-        fatalError("No pude abrir el archivo \(fileName) de los recursos de la app:\n\(error)")
+        fatalError("No se pudo cargar \(filename) desde el bundle principal:\n\(error)")
     }
-    
+
     do {
         let decoder = JSONDecoder()
         return try decoder.decode(T.self, from: data)
     } catch {
-        fatalError("No pude leer \(fileName) como \(T.self):\n\(error)")
+        fatalError("No se pudo decodificar \(filename) como \(T.self):\n\(error)")
     }
 }
-
-var paisajes: [Paisaje] = load("landmarkData.json")
-
