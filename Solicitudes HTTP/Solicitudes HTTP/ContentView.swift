@@ -8,52 +8,70 @@
 import SwiftUI
 import SwiftData
 
-struct ContentView: View {
-    @Environment(\.modelContext) private var modelContext
-    @Query private var items: [Item]
+import SwiftUI
 
+struct ContentView: View {
+    
+    let apiBridge = ApiBridge()
+    let decoder = JSONDecoder()
+    
+    @State private var personas: [Persona] = []
+    @State private var respuesta: String = "Cargando..."
+    
     var body: some View {
-        NavigationSplitView {
-            List {
-                ForEach(items) { item in
-                    NavigationLink {
-                        Text("Item at \(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))")
-                    } label: {
-                        Text(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))
+        NavigationStack {
+            List(personas) { persona in
+                NavigationLink(destination: FormView(persona: persona)) {
+                    VStack(alignment: .leading) {
+                        Text("\(persona.nombre ?? "Sin") \(persona.apellido ?? "Nombre")")
+                            .font(.headline)
+                        Text(persona.rol ?? "Sin rol")
+                            .font(.subheadline)
+                            .foregroundColor(.gray)
                     }
                 }
-                .onDelete(perform: deleteItems)
+            }
+            .navigationTitle("Personas")
+
+            .task {
+                cargarDatos()
             }
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
-                    EditButton()
-                }
-                ToolbarItem {
-                    Button(action: addItem) {
-                        Label("Add Item", systemImage: "plus")
+
+                    NavigationLink(destination: FormView(persona: nil)) {
+                        Image(systemName: "plus")
                     }
                 }
             }
-        } detail: {
-            Text("Select an item")
         }
     }
-
-    private func addItem() {
-        withAnimation {
-            let newItem = Item(timestamp: Date())
-            modelContext.insert(newItem)
-        }
-    }
-
-    private func deleteItems(offsets: IndexSet) {
-        withAnimation {
-            for index in offsets {
-                modelContext.delete(items[index])
+    
+    func cargarDatos() {
+        apiBridge.get(endpoint: "/escuela/persona") { response in
+            guard let response = response,
+                  let jsonData = response.data(using: .utf8) else {
+                DispatchQueue.main.async {
+                    self.respuesta = "Error: No se pudo cargar datos."
+                }
+                return
+            }
+            
+            do {
+                let personasDecodificadas = try decoder.decode([Persona].self, from: jsonData)
+                DispatchQueue.main.async {
+                    self.personas = personasDecodificadas
+                }
+                
+            } catch {
+                DispatchQueue.main.async {
+                    self.respuesta = "Error: JSON malformado. \(error.localizedDescription)"
+                }
             }
         }
     }
 }
+
 
 #Preview {
     ContentView()
