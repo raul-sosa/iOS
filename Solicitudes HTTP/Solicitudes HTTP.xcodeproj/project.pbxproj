@@ -7,62 +7,62 @@
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
-		8FAC22072EA721F200577D6F /* PBXContainerItemProxy */ = {
+		8F4CF9612EB6B19D00992768 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 8FAC21EF2EA721F000577D6F /* Project object */;
+			containerPortal = 8F4CF9492EB6B19C00992768 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8FAC21F62EA721F000577D6F;
-			remoteInfo = MapasApp;
+			remoteGlobalIDString = 8F4CF9502EB6B19C00992768;
+			remoteInfo = "Solicitudes HTTP";
 		};
-		8FAC22112EA721F200577D6F /* PBXContainerItemProxy */ = {
+		8F4CF96B2EB6B19D00992768 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 8FAC21EF2EA721F000577D6F /* Project object */;
+			containerPortal = 8F4CF9492EB6B19C00992768 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8FAC21F62EA721F000577D6F;
-			remoteInfo = MapasApp;
+			remoteGlobalIDString = 8F4CF9502EB6B19C00992768;
+			remoteInfo = "Solicitudes HTTP";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8FAC21F72EA721F000577D6F /* MapasApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapasApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8FAC22062EA721F200577D6F /* MapasAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapasAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8FAC22102EA721F200577D6F /* MapasAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapasAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F4CF9512EB6B19C00992768 /* Solicitudes HTTP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Solicitudes HTTP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F4CF9602EB6B19D00992768 /* Solicitudes HTTPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Solicitudes HTTPTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F4CF96A2EB6B19D00992768 /* Solicitudes HTTPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Solicitudes HTTPUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		8FAC21F92EA721F000577D6F /* MapasApp */ = {
+		8F4CF9532EB6B19C00992768 /* Solicitudes HTTP */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MapasApp;
+			path = "Solicitudes HTTP";
 			sourceTree = "<group>";
 		};
-		8FAC22092EA721F200577D6F /* MapasAppTests */ = {
+		8F4CF9632EB6B19D00992768 /* Solicitudes HTTPTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MapasAppTests;
+			path = "Solicitudes HTTPTests";
 			sourceTree = "<group>";
 		};
-		8FAC22132EA721F200577D6F /* MapasAppUITests */ = {
+		8F4CF96D2EB6B19D00992768 /* Solicitudes HTTPUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MapasAppUITests;
+			path = "Solicitudes HTTPUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8FAC21F42EA721F000577D6F /* Frameworks */ = {
+		8F4CF94E2EB6B19C00992768 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8FAC22032EA721F200577D6F /* Frameworks */ = {
+		8F4CF95D2EB6B19D00992768 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8FAC220D2EA721F200577D6F /* Frameworks */ = {
+		8F4CF9672EB6B19D00992768 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,22 +72,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8FAC21EE2EA721F000577D6F = {
+		8F4CF9482EB6B19C00992768 = {
 			isa = PBXGroup;
 			children = (
-				8FAC21F92EA721F000577D6F /* MapasApp */,
-				8FAC22092EA721F200577D6F /* MapasAppTests */,
-				8FAC22132EA721F200577D6F /* MapasAppUITests */,
-				8FAC21F82EA721F000577D6F /* Products */,
+				8F4CF9532EB6B19C00992768 /* Solicitudes HTTP */,
+				8F4CF9632EB6B19D00992768 /* Solicitudes HTTPTests */,
+				8F4CF96D2EB6B19D00992768 /* Solicitudes HTTPUITests */,
+				8F4CF9522EB6B19C00992768 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		8FAC21F82EA721F000577D6F /* Products */ = {
+		8F4CF9522EB6B19C00992768 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8FAC21F72EA721F000577D6F /* MapasApp.app */,
-				8FAC22062EA721F200577D6F /* MapasAppTests.xctest */,
-				8FAC22102EA721F200577D6F /* MapasAppUITests.xctest */,
+				8F4CF9512EB6B19C00992768 /* Solicitudes HTTP.app */,
+				8F4CF9602EB6B19D00992768 /* Solicitudes HTTPTests.xctest */,
+				8F4CF96A2EB6B19D00992768 /* Solicitudes HTTPUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,134 +95,134 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8FAC21F62EA721F000577D6F /* MapasApp */ = {
+		8F4CF9502EB6B19C00992768 /* Solicitudes HTTP */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8FAC221A2EA721F200577D6F /* Build configuration list for PBXNativeTarget "MapasApp" */;
+			buildConfigurationList = 8F4CF9742EB6B19D00992768 /* Build configuration list for PBXNativeTarget "Solicitudes HTTP" */;
 			buildPhases = (
-				8FAC21F32EA721F000577D6F /* Sources */,
-				8FAC21F42EA721F000577D6F /* Frameworks */,
-				8FAC21F52EA721F000577D6F /* Resources */,
+				8F4CF94D2EB6B19C00992768 /* Sources */,
+				8F4CF94E2EB6B19C00992768 /* Frameworks */,
+				8F4CF94F2EB6B19C00992768 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				8FAC21F92EA721F000577D6F /* MapasApp */,
+				8F4CF9532EB6B19C00992768 /* Solicitudes HTTP */,
 			);
-			name = MapasApp;
+			name = "Solicitudes HTTP";
 			packageProductDependencies = (
 			);
-			productName = MapasApp;
-			productReference = 8FAC21F72EA721F000577D6F /* MapasApp.app */;
+			productName = "Solicitudes HTTP";
+			productReference = 8F4CF9512EB6B19C00992768 /* Solicitudes HTTP.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8FAC22052EA721F200577D6F /* MapasAppTests */ = {
+		8F4CF95F2EB6B19D00992768 /* Solicitudes HTTPTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8FAC221D2EA721F200577D6F /* Build configuration list for PBXNativeTarget "MapasAppTests" */;
+			buildConfigurationList = 8F4CF9772EB6B19D00992768 /* Build configuration list for PBXNativeTarget "Solicitudes HTTPTests" */;
 			buildPhases = (
-				8FAC22022EA721F200577D6F /* Sources */,
-				8FAC22032EA721F200577D6F /* Frameworks */,
-				8FAC22042EA721F200577D6F /* Resources */,
+				8F4CF95C2EB6B19D00992768 /* Sources */,
+				8F4CF95D2EB6B19D00992768 /* Frameworks */,
+				8F4CF95E2EB6B19D00992768 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8FAC22082EA721F200577D6F /* PBXTargetDependency */,
+				8F4CF9622EB6B19D00992768 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				8FAC22092EA721F200577D6F /* MapasAppTests */,
+				8F4CF9632EB6B19D00992768 /* Solicitudes HTTPTests */,
 			);
-			name = MapasAppTests;
+			name = "Solicitudes HTTPTests";
 			packageProductDependencies = (
 			);
-			productName = MapasAppTests;
-			productReference = 8FAC22062EA721F200577D6F /* MapasAppTests.xctest */;
+			productName = "Solicitudes HTTPTests";
+			productReference = 8F4CF9602EB6B19D00992768 /* Solicitudes HTTPTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		8FAC220F2EA721F200577D6F /* MapasAppUITests */ = {
+		8F4CF9692EB6B19D00992768 /* Solicitudes HTTPUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8FAC22202EA721F200577D6F /* Build configuration list for PBXNativeTarget "MapasAppUITests" */;
+			buildConfigurationList = 8F4CF97A2EB6B19D00992768 /* Build configuration list for PBXNativeTarget "Solicitudes HTTPUITests" */;
 			buildPhases = (
-				8FAC220C2EA721F200577D6F /* Sources */,
-				8FAC220D2EA721F200577D6F /* Frameworks */,
-				8FAC220E2EA721F200577D6F /* Resources */,
+				8F4CF9662EB6B19D00992768 /* Sources */,
+				8F4CF9672EB6B19D00992768 /* Frameworks */,
+				8F4CF9682EB6B19D00992768 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8FAC22122EA721F200577D6F /* PBXTargetDependency */,
+				8F4CF96C2EB6B19D00992768 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				8FAC22132EA721F200577D6F /* MapasAppUITests */,
+				8F4CF96D2EB6B19D00992768 /* Solicitudes HTTPUITests */,
 			);
-			name = MapasAppUITests;
+			name = "Solicitudes HTTPUITests";
 			packageProductDependencies = (
 			);
-			productName = MapasAppUITests;
-			productReference = 8FAC22102EA721F200577D6F /* MapasAppUITests.xctest */;
+			productName = "Solicitudes HTTPUITests";
+			productReference = 8F4CF96A2EB6B19D00992768 /* Solicitudes HTTPUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8FAC21EF2EA721F000577D6F /* Project object */ = {
+		8F4CF9492EB6B19C00992768 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2600;
 				LastUpgradeCheck = 2600;
 				TargetAttributes = {
-					8FAC21F62EA721F000577D6F = {
+					8F4CF9502EB6B19C00992768 = {
 						CreatedOnToolsVersion = 26.0.1;
 					};
-					8FAC22052EA721F200577D6F = {
+					8F4CF95F2EB6B19D00992768 = {
 						CreatedOnToolsVersion = 26.0.1;
-						TestTargetID = 8FAC21F62EA721F000577D6F;
+						TestTargetID = 8F4CF9502EB6B19C00992768;
 					};
-					8FAC220F2EA721F200577D6F = {
+					8F4CF9692EB6B19D00992768 = {
 						CreatedOnToolsVersion = 26.0.1;
-						TestTargetID = 8FAC21F62EA721F000577D6F;
+						TestTargetID = 8F4CF9502EB6B19C00992768;
 					};
 				};
 			};
-			buildConfigurationList = 8FAC21F22EA721F000577D6F /* Build configuration list for PBXProject "MapasApp" */;
+			buildConfigurationList = 8F4CF94C2EB6B19C00992768 /* Build configuration list for PBXProject "Solicitudes HTTP" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 8FAC21EE2EA721F000577D6F;
+			mainGroup = 8F4CF9482EB6B19C00992768;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 8FAC21F82EA721F000577D6F /* Products */;
+			productRefGroup = 8F4CF9522EB6B19C00992768 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8FAC21F62EA721F000577D6F /* MapasApp */,
-				8FAC22052EA721F200577D6F /* MapasAppTests */,
-				8FAC220F2EA721F200577D6F /* MapasAppUITests */,
+				8F4CF9502EB6B19C00992768 /* Solicitudes HTTP */,
+				8F4CF95F2EB6B19D00992768 /* Solicitudes HTTPTests */,
+				8F4CF9692EB6B19D00992768 /* Solicitudes HTTPUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8FAC21F52EA721F000577D6F /* Resources */ = {
+		8F4CF94F2EB6B19C00992768 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8FAC22042EA721F200577D6F /* Resources */ = {
+		8F4CF95E2EB6B19D00992768 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8FAC220E2EA721F200577D6F /* Resources */ = {
+		8F4CF9682EB6B19D00992768 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -232,21 +232,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8FAC21F32EA721F000577D6F /* Sources */ = {
+		8F4CF94D2EB6B19C00992768 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8FAC22022EA721F200577D6F /* Sources */ = {
+		8F4CF95C2EB6B19D00992768 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8FAC220C2EA721F200577D6F /* Sources */ = {
+		8F4CF9662EB6B19D00992768 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -256,20 +256,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8FAC22082EA721F200577D6F /* PBXTargetDependency */ = {
+		8F4CF9622EB6B19D00992768 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8FAC21F62EA721F000577D6F /* MapasApp */;
-			targetProxy = 8FAC22072EA721F200577D6F /* PBXContainerItemProxy */;
+			target = 8F4CF9502EB6B19C00992768 /* Solicitudes HTTP */;
+			targetProxy = 8F4CF9612EB6B19D00992768 /* PBXContainerItemProxy */;
 		};
-		8FAC22122EA721F200577D6F /* PBXTargetDependency */ = {
+		8F4CF96C2EB6B19D00992768 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8FAC21F62EA721F000577D6F /* MapasApp */;
-			targetProxy = 8FAC22112EA721F200577D6F /* PBXContainerItemProxy */;
+			target = 8F4CF9502EB6B19C00992768 /* Solicitudes HTTP */;
+			targetProxy = 8F4CF96B2EB6B19D00992768 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		8FAC22182EA721F200577D6F /* Debug */ = {
+		8F4CF9722EB6B19D00992768 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -332,7 +332,7 @@
 			};
 			name = Debug;
 		};
-		8FAC22192EA721F200577D6F /* Release */ = {
+		8F4CF9732EB6B19D00992768 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -388,7 +388,7 @@
 			};
 			name = Release;
 		};
-		8FAC221B2EA721F200577D6F /* Debug */ = {
+		8F4CF9752EB6B19D00992768 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -397,8 +397,6 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSFileProviderDomainUsageDescription = "";
-				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Necesitamos tu ubicacion para mostrarla en el mapa";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -409,7 +407,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = UACAM.MapasApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "UACAM.Solicitudes-HTTP";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -421,7 +419,7 @@
 			};
 			name = Debug;
 		};
-		8FAC221C2EA721F200577D6F /* Release */ = {
+		8F4CF9762EB6B19D00992768 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -430,8 +428,6 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSFileProviderDomainUsageDescription = "";
-				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Necesitamos tu ubicacion para mostrarla en el mapa";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -442,7 +438,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = UACAM.MapasApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "UACAM.Solicitudes-HTTP";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -454,7 +450,7 @@
 			};
 			name = Release;
 		};
-		8FAC221E2EA721F200577D6F /* Debug */ = {
+		8F4CF9782EB6B19D00992768 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -463,7 +459,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = UACAM.MapasAppTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "UACAM.Solicitudes-HTTPTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -471,11 +467,11 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapasApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MapasApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Solicitudes HTTP.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Solicitudes HTTP";
 			};
 			name = Debug;
 		};
-		8FAC221F2EA721F200577D6F /* Release */ = {
+		8F4CF9792EB6B19D00992768 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,7 +480,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = UACAM.MapasAppTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "UACAM.Solicitudes-HTTPTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -492,18 +488,18 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapasApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MapasApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Solicitudes HTTP.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Solicitudes HTTP";
 			};
 			name = Release;
 		};
-		8FAC22212EA721F200577D6F /* Debug */ = {
+		8F4CF97B2EB6B19D00992768 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = UACAM.MapasAppUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = "UACAM.Solicitudes-HTTPUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -511,18 +507,18 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MapasApp;
+				TEST_TARGET_NAME = "Solicitudes HTTP";
 			};
 			name = Debug;
 		};
-		8FAC22222EA721F200577D6F /* Release */ = {
+		8F4CF97C2EB6B19D00992768 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = UACAM.MapasAppUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = "UACAM.Solicitudes-HTTPUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -530,50 +526,50 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MapasApp;
+				TEST_TARGET_NAME = "Solicitudes HTTP";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8FAC21F22EA721F000577D6F /* Build configuration list for PBXProject "MapasApp" */ = {
+		8F4CF94C2EB6B19C00992768 /* Build configuration list for PBXProject "Solicitudes HTTP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8FAC22182EA721F200577D6F /* Debug */,
-				8FAC22192EA721F200577D6F /* Release */,
+				8F4CF9722EB6B19D00992768 /* Debug */,
+				8F4CF9732EB6B19D00992768 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8FAC221A2EA721F200577D6F /* Build configuration list for PBXNativeTarget "MapasApp" */ = {
+		8F4CF9742EB6B19D00992768 /* Build configuration list for PBXNativeTarget "Solicitudes HTTP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8FAC221B2EA721F200577D6F /* Debug */,
-				8FAC221C2EA721F200577D6F /* Release */,
+				8F4CF9752EB6B19D00992768 /* Debug */,
+				8F4CF9762EB6B19D00992768 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8FAC221D2EA721F200577D6F /* Build configuration list for PBXNativeTarget "MapasAppTests" */ = {
+		8F4CF9772EB6B19D00992768 /* Build configuration list for PBXNativeTarget "Solicitudes HTTPTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8FAC221E2EA721F200577D6F /* Debug */,
-				8FAC221F2EA721F200577D6F /* Release */,
+				8F4CF9782EB6B19D00992768 /* Debug */,
+				8F4CF9792EB6B19D00992768 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8FAC22202EA721F200577D6F /* Build configuration list for PBXNativeTarget "MapasAppUITests" */ = {
+		8F4CF97A2EB6B19D00992768 /* Build configuration list for PBXNativeTarget "Solicitudes HTTPUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8FAC22212EA721F200577D6F /* Debug */,
-				8FAC22222EA721F200577D6F /* Release */,
+				8F4CF97B2EB6B19D00992768 /* Debug */,
+				8F4CF97C2EB6B19D00992768 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 8FAC21EF2EA721F000577D6F /* Project object */;
+	rootObject = 8F4CF9492EB6B19C00992768 /* Project object */;
 }
